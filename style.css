@@ -57,9 +57,10 @@ body{
 nav{
     position: fixed;
     width: 100%;
-    padding: 1.25rem 0;
+    padding: 1.25rem 100;
     z-index: 999;
     transition: all 0.3s ease;
+    background-color:var(--primary-color);
 }
 
 nav .navbar .logo a{
@@ -82,11 +83,12 @@ nav.sticky{
 }
 
 nav .navbar{
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    
     
 }
 nav .navbar .menu{
@@ -96,6 +98,7 @@ nav .navbar .menu{
 nav .navbar .menu li{
     list-style: none;
     margin: 0 1rem;
+    
 }
 
 nav .navbar .menu li a{
