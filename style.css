@@ -73,7 +73,10 @@ nav .navbar .logo.active a{
     color: var(--black-color);
 }
 nav .navbar .logo_text{
-    color:red;
+    color:rgb(255, 255, 255);
+}
+nav .navbar .logo_text:hover{
+    text-decoration: underline;
 }
 
 nav.sticky{
