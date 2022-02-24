@@ -396,3 +396,62 @@ nav .menu-btn{
     font-size: 1.125rem;
     color: var(--gray-color);
 }
+.testimonials{
+    padding-top:6.25rem;
+    background: var(--primary-color);
+    position:relative;
+    padding-bottom: 1.5625rem;
+    margin-bottom: 5rem;
+}
+.testimonials::before{
+    content:'';
+    display: block;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 9.8125rem;
+    background: var(--white-color);
+}
+.testimonials{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials i{
+    font-size: 3.75rem;
+    color: var(--white-color);
+
+}
+.testimonials p{
+    font-size: 1rem;
+    color: var(--white-color);
+    line-height: 1.4375rem;
+    max-width: 37.5rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.5625rem;
+    padding-bottom: 40px;
+}
+.slick-slide img{
+    display: inline-block;
+    margin-left: 685px;
+
+}
+.testimonials img{
+    text-align: center;
+    width: 9.375rem;
+    border-radius: 100%;
+}
+.testimonials .details h3{
+    font-size: 1.4375rem;
+    color: var(--black-color);
+    margin-bottom: 0.3125rem;
+
+}
+
+.testimonials .details p{
+    color: var(--black-color) !important;
+    padding: 0;
+}
