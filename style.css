@@ -156,12 +156,14 @@ nav .menu-btn{
 }
 
 .home .top-banner .text{
+    margin-top: 150px;
     text-align: center;
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .home .top-banner .text h1{
@@ -169,6 +171,7 @@ nav .menu-btn{
     color: var(--white-color);
     text-transform: uppercase;
     margin-bottom: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .home .top-banner .text p{
@@ -312,7 +315,7 @@ nav .menu-btn{
 }
 .agency-right li::before{
     position: absolute;
-    content: '\f375';
+    
     font-family: "themefisher-font";
     margin-left: -3rem;
     font-size: 1.25rem;
@@ -420,7 +423,7 @@ nav .menu-btn{
 }
 
 .testimonials i{
-    font-size: 3.75rem;
+    font-size: 4.75rem;
     color: var(--white-color);
 
 }
@@ -436,13 +439,14 @@ nav .menu-btn{
 }
 .slick-slide img{
     display: inline-block;
-    margin-left: 685px;
+    margin-left: 684px;
 
 }
 .testimonials img{
     text-align: center;
     width: 9.375rem;
     border-radius: 100%;
+    
 }
 .testimonials .details h3{
     font-size: 1.4375rem;
