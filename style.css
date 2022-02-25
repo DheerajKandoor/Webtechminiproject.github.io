@@ -330,6 +330,7 @@ nav .menu-btn{
     background-size: cover;
     position:center;
     text-align: center;
+    margin-bottom: -5rem;
 }
 
 .call-to-action .sec-title{
