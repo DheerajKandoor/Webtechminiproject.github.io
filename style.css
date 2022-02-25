@@ -459,3 +459,112 @@ nav .menu-btn{
     color: var(--black-color) !important;
     padding: 0;
 }
+.latest-post{
+    background-color: var(--light-gray);
+}
+.latest-post .post-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.post-content .post-card{
+    width:calc(100% /3 - 1.25rem);
+    background: var(--white-color);
+}
+.post-content .post-card img{
+    width: 100%;
+}
+.post-content .post-details{
+    padding: 1rem;
+}
+.post-content .post-details h2{
+    color: var(--black-color);
+    margin: 1rem 0;
+    font-weight: 600; 
+}
+
+.post-content .post-details p{
+    color: var(--gray-color);
+    font-size: 0.875rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+.post-content .post-details .main-btn button{
+    margin-bottom: 1rem;
+    padding: 0.75rem 1.625rem;
+    cursor: pointer;
+}
+.footer-design{
+    background: var(--black-color);
+}
+
+.footer-design .footer-wiget{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Incomplete 
+
+
+Complete it */
+.footer-design .footer-wiget .footer-content{
+    width:calc(100% / 4 - 1.25rem);
+}
+
+.footer-wiget .footer-content h3{
+color: var(--white-color);
+font-weight: 400;
+text-transform: uppercase;
+margin-bottom: 1.5rem;
+}
+
+.footer-wiget .footer-content p{
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 0.875rem !important;
+    line-height: 2rem;
+    margin-right: 2.5rem;
+}
+
+.footer-content ul{
+    list-style: none;
+}
+
+.footer-wiget .footer-content ul li a{
+    color: var(--gray-color);
+    font-weight: 400;
+    font-size: 0.875rem !important;
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+
+}
+
+.footer-wiget .footer-content ul li a:hover{
+    color: var(--primary-color);
+
+}
+
+footer .mini-footer{
+    border-top: 1px solid var(--gray-color);
+    background: var(--black-color);
+    padding: 2rem 0;
+    text-align: center;
+
+}
+
+footer .mini-footer p{
+    font-size: 13px;
+    color: var(--gray-color);
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+
+}
+
+footer .mini-footer p a{
+    font-size: 13px;
+    color: var(--primary-color);
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
