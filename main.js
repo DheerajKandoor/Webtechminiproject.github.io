@@ -34,7 +34,7 @@ for (var i = 0; i < navLinks.length; i++) {
 }
 
 
-// Scroll Fixed
+
 window.onscroll = function () {
     if (document.documentElement.scrollTop > 20) {
         nav.classList.add("sticky");
@@ -46,7 +46,7 @@ window.onscroll = function () {
         menuBtn.classList.remove("active");
     }
 
-    // counter on scroll 
+
     var number = 0;
     var oTop = $('#counter').offset().top - window.innerHeight;
     if (number == 0 && $(window).scrollTop() > oTop) {

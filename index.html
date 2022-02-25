@@ -163,28 +163,24 @@
             </div>
             <div class="counter-item" id="counter">
                 <div class="counter-text">
-                    <i class="fa-solid fa-clock"></i>
-                    <span>355</span>
+                    <i class="fa-solid fa-face-laugh-beam"></i>
+                    <span class="counter-value" data-count="150">134</span>
                     <h5>Happy Clients</h5>
-
                 </div>
                 <div class="counter-text">
                     <i class="fa-solid fa-chart-bar"></i>
-                    <span>383</span>
+                    <span class="counter-value" data-count="130">146</span>
                     <h5>Projects Completed</h5>
-
                 </div>
                 <div class="counter-text">
-                    <i class="fa-solid fa-comment-dots"></i>
-                    <span>321</span>
+                    <i class="fa-solid fa-comments"></i>
+                    <span class="counter-value" data-count="99">128</span>
                     <h5>Positive Feedback</h5>
-
                 </div>
                 <div class="counter-text border-none">
                     <i class="fa-solid fa-award"></i>
-                    <span>156</span>
+                    <span class="counter-value" data-count="250">69</span>
                     <h5>Awards</h5>
-
                 </div>
             </div>
         </div>
@@ -347,7 +343,22 @@
                 adaptiveHeight: true
             });
         })
+
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.counter-value').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    </script>
+
 </body>
 
 </html>
