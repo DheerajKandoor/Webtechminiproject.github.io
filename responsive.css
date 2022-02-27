@@ -1,0 +1,182 @@
+
+
+@media (max-width:1190px) {
+    
+    .home .top-banner .text p{
+        width:50%;
+    }
+
+    
+    .sec-content{
+        width:90%;
+        padding:3.25rem 0;
+    }
+    .sec-title h2{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width:1000px) {
+    /* ====top banner design ====*/
+    .home .top-banner .text h1{
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width:900px) {
+   
+    nav .navbar{
+        width:90%;
+    }
+    nav .navbar .menu{
+        position:fixed;
+        left:-100%;
+        top:0;
+        background-color:var(--white-color);
+        height:100vh;
+        max-width: 25rem;
+        width:100%;
+        padding-top:3.75rem;
+        flex-direction: column;
+        align-items:center;
+        transition: all 0.5s ease;
+    }
+    nav .menu-btn,
+    nav .menu .cancel-btn{
+        display:block;
+        color:var(--black-color);
+    }
+    nav .menu-btn{
+        color:var(--white-color);
+    }
+    nav .menu-btn.active{
+        color:var(--black-color);
+    }
+    .navbar.active .menu{
+        left:0;
+    }
+    nav .navbar .menu li a{
+        font-size: 1.4375rem;
+        color:var(--black-color);
+        display:block;
+        margin:0.625rem 0;
+        cursor:pointer;
+    }
+  
+    .home .top-banner .text p{
+        width:70%;
+    }
+
+    
+    .sec-title p{
+        width:80%;
+    }
+
+  
+    .award .counter-item{
+        flex-wrap: wrap;
+    }
+    .award .counter-item .counter-text{
+        width:calc(100% / 2 - 1.25rem);
+        margin-bottom:1.5rem;
+    }
+    .award .counter-item .counter-text::before{
+        background:transparent;
+    }
+
+  
+    .post-content .post-card{
+        width:calc(100% / 2 - 1.25rem);
+        margin-bottom:1.5rem;
+    }
+
+    
+    .footer-wiget .footer-content{
+        width:calc(100% / 2 - 1.25rem);
+        margin-bottom:1.5rem;
+    }
+    .footer-design .footer-wiget{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:750px) { 
+
+    
+    .home .top-banner .content{
+        width:90%;
+    }
+    .home .top-banner .text h1{
+        font-size: 2rem;
+    }
+    .home .top-banner .text p{
+        width:90%;
+    }
+
+ 
+     .sec-content .left{
+         width:100%;
+         text-align: center;
+     }
+     .sec-content .right{
+         width:100%;
+         text-align: center;
+     }
+     .service-content{
+         flex-direction: column;
+     }
+     .sec-content .right .card{
+         width:100%;
+     }
+   
+     .agency-content{
+         flex-direction: column;
+         text-align: center;
+     }
+     .agency-content .agency-img{
+         width:100%;
+         margin-bottom:1.875rem;
+     }
+     .agency-content .agency-right{
+         width:100%;
+         text-align: left;
+     }
+   
+    .award .counter-item{
+        flex-direction: column;
+    }
+    .award .counter-item .counter-text{
+        margin-bottom:2rem;
+        width:100%;
+    }
+
+    
+    .latest-post .post-content{
+        flex-direction: column;
+    }
+    .post-content .post-card{
+        width:100%;
+        margin-bottom:1.875rem;
+    }
+
+  
+     .footer-design .footer-wiget{
+         flex-direction: column;
+     }
+     .footer-design .footer-wiget .footer-content{
+         width:100%;
+         margin-bottom:1.875rem;
+         text-align: center;
+     }
+}
+
+@media (max-width:350px) {
+    
+    .home .top-banner .text h1{
+        font-size: 1.5rem;
+    }
+}
+        
+      
